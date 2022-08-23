@@ -1,0 +1,20 @@
+What happend in waht video:
+    In 93rd video we have created two folders in code folder named as resources and models and we have created __init___.py files in two of them
+    In that video itself we have moved user.py and item.py files into resources because the classes present in it have resources
+    In 94th video we have cut the user class from user.py file and we have pasted in models folder created a new user.py file 
+    and we have replaced the user class with UserModel class and changed it where evere we have written user and we have removed the 
+    class methods at above because they are using the Item class and replaced each fumction with self (insert_item and update) functions
+    and returend each function with json() extension so that json function contain the dictonary of name and values of item
+    In 96th video we have make a shotcut of copy and pasting the token as we have inserted a javascript code in test and we have made a jwt_token in the 
+    field of token and now it is going to take autometically the generated token cause we have written a code in auth 
+    In 98th video we have written a code for Alchemy and we have created columns for both tables and also we have written a code for db.py
+    where we have intialised the sqlalchemy.
+    In 99th video we have cleared the find_by_name method and we have replace whole Sql queries into a single alchemy query
+
+New things we learned:
+    If we want to retriev a class from a folder we type import.user which is a foldername and file name import user which is a 
+    class we are going to import.
+    Insted of writting http//127.0.5000 we replaced it with {{url}} byplacing a new environment where we placed a new variable as url and 
+    intial and current values to http//.127.0.5000
+    Thongs a user or item has to be entered is written in models 
+    and things which  a user or item will enter will be writte in resources

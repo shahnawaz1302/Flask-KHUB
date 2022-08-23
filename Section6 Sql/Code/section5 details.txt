@@ -1,0 +1,36 @@
+I this Sectiuon waht we did is we created a test.py file where we created a database.
+And values whic are to e inserted are also been mentoned in that file itself 
+In security.py intially we have given the username and password all credentials with User class 
+Now we replaced it with user file function names beauyse in text.py file we have created a database 
+In user.py we haave intiallised the id,username,password and created two functions which search in database by user name or id 
+What happens when we give correbt credentials:
+    Innitially bit will check in test.py due toi database in i test
+    later it will move to user.py for extraction of username or id 
+    Next it will move to security.py file for authentication 
+    Last will bring the user credentials to app.py and check with the credentials which we are entered.
+What we done in which video:
+    In 82nd video we created the register form like structure by activating the creat_table_one.py 
+    Whatever values we enter we are going to do authentication with that perticular credentials
+    In 84th video we have cut the item and itemregister class and placed into new item.py file
+    Later we are have added the concept of searching the order which are inside the datbase 
+    So we have aded some items into the databse in get method of the item.py file and we have selected the utem in items table with
+    perticular name and price and we are extracting the rows of it
+    And in creat_table_one.py we have created the table of users and we have inserted name and value of the perticalr item and we are going to ec=xtract the value by name 
+    in the post name in get by placing the token in it. 
+    In 85th video in item.py we cut the database connecxtio in get method rahter we have added a new function name find_by_name and when
+    are going to add that function when ever we want to search a product by name.
+    And we have placed the that functio inpost method as well so that we can search a name whether it is present or not so that we can 
+    create a new item with that name.
+    I that previoslty we had a append method that is been changed by the database connection and we have inserted into database.
+    In 86th video we have replaced the delete function with databse deletion 
+    In 87th video we have cut the database code from post function and placed a new function called insert_item and 
+    we are going t use thos efunction in post method to add a new item.
+    In 88 video we have written a code for put method where we have written a code for update an item with erticular price and we have
+    inserted an item if that item is not preseent in the database.
+    In 89th video we have written a code for UserRegister to reflect all data from users into a single items from database. 
+
+Import points:
+we define a class and place a resourse in it it is because we want to use post method
+In order to use cls we have define classmethod over the top of the Fumction.
+error 400 when an erroe occured in deep down in server
+Error 500 when an error occured in internal type like inserting
