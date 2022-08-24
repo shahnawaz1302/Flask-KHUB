@@ -1,0 +1,2 @@
+Now we are going to deploy in heroku so for that we naeed to login into the heroku and later we have to create a pproject
+After creating project we have to connect the GitHub and we have to check the brach of github which is been added 
