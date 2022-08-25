@@ -1,2 +1,9 @@
 Now we are going to deploy in heroku so for that we naeed to login into the heroku and later we have to create a pproject
-After creating project we have to connect the GitHub and we have to check the brach of github which is been added 
+After creating project we have to connect the GitHub and we have to check the brach of github which is been added
+To Deploy my code in GitHub i sfferd a lot cause initially i have rtried to deploy Section7 later i have tried to deploy
+the whle flask uedmy folder then i got error of clashing the repositories
+So Faizan bhai helped me to add venv and .data files to gitignore file and he removed .data file so that it conatin some unnessary files
+he used the command of git rm -rf --cache .data
+Again he added git add .
+then git commit -am "updtaes"
+git push
